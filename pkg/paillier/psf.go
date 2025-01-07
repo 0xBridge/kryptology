@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/kryptology/internal"
-	crypto "github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/0xBridge/kryptology/internal"
+	crypto "github.com/0xBridge/kryptology/pkg/core"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
 )
 
 // [spec] 10.2 and ProvePSF, VerifyPSF fig.15

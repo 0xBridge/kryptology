@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	dkg "github.com/coinbase/kryptology/pkg/dkg/gennaro"
-	"github.com/coinbase/kryptology/pkg/sharing/v1"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
+	dkg "github.com/0xBridge/kryptology/pkg/dkg/gennaro"
+	v1 "github.com/0xBridge/kryptology/pkg/sharing/v1"
 )
 
 const LIMIT = 4

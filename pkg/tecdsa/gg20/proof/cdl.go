@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"math/big"
 
-	mod "github.com/coinbase/kryptology/pkg/core"
+	mod "github.com/0xBridge/kryptology/pkg/core"
 )
 
 const ell = 128

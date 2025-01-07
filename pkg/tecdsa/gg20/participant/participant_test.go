@@ -14,13 +14,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/paillier"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
+	"github.com/0xBridge/kryptology/internal"
+	"github.com/0xBridge/kryptology/pkg/core"
+	"github.com/0xBridge/kryptology/pkg/paillier"
+	"github.com/0xBridge/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 func TestConvertToAdditiveWorks(t *testing.T) {

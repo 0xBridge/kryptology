@@ -16,15 +16,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	"github.com/coinbase/kryptology/pkg/core/protocol"
-	"github.com/coinbase/kryptology/pkg/ot/extension/kos"
-	v0 "github.com/coinbase/kryptology/pkg/tecdsa/dkls/v0"
-	"github.com/coinbase/kryptology/pkg/tecdsa/dkls/v1/dkg"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
+	"github.com/0xBridge/kryptology/pkg/core/protocol"
+	"github.com/0xBridge/kryptology/pkg/ot/extension/kos"
+	v0 "github.com/0xBridge/kryptology/pkg/tecdsa/dkls/v0"
+	"github.com/0xBridge/kryptology/pkg/tecdsa/dkls/v1/dkg"
 )
 
 // For DKG bob starts first. For refresh and sign, Alice starts first.

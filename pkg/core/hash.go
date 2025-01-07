@@ -15,10 +15,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/btcsuite/btcd/btcec"
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/coinbase/kryptology/internal"
+	"github.com/0xBridge/kryptology/internal"
+	"github.com/btcsuite/btcd/btcec/v2"
 )
 
 type HashField struct {

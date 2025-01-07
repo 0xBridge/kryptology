@@ -9,9 +9,9 @@ package participant
 import (
 	"fmt"
 
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/proof"
+	"github.com/0xBridge/kryptology/pkg/core"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
+	"github.com/0xBridge/kryptology/pkg/tecdsa/gg20/proof"
 )
 
 // Round5Bcast are the values to be broadcast to the other players at the conclusion

@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	"github.com/coinbase/kryptology/pkg/paillier"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
+	"github.com/0xBridge/kryptology/pkg/core"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
+	"github.com/0xBridge/kryptology/pkg/paillier"
+	"github.com/0xBridge/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 // ResponseProofParams encapsulates the values over which a range proof (2) is computed.

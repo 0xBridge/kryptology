@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/coinbase/kryptology/internal"
-	mod "github.com/coinbase/kryptology/pkg/core"
+	"github.com/0xBridge/kryptology/internal"
+	mod "github.com/0xBridge/kryptology/pkg/core"
 )
 
 func BenchmarkK256(b *testing.B) {

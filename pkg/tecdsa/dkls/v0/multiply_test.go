@@ -11,10 +11,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
 )
 
 func TestMultiply(t *testing.T) {

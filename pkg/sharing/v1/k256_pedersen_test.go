@@ -10,10 +10,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	core "github.com/coinbase/kryptology/pkg/core/curves"
+	core "github.com/0xBridge/kryptology/pkg/core/curves"
 )
 
 var (

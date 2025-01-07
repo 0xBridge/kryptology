@@ -11,12 +11,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	tt "github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	v1 "github.com/coinbase/kryptology/pkg/sharing/v1"
+	tt "github.com/0xBridge/kryptology/internal"
+	"github.com/0xBridge/kryptology/pkg/core/curves"
+	v1 "github.com/0xBridge/kryptology/pkg/sharing/v1"
 )
 
 type proofParamsTest struct {
